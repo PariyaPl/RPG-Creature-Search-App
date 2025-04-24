@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet"/>
+    <title>RPG Creature Search App</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">RPG Creature Search App</h1>
+
+      <div id="search-section">
+        <h2>Search for Creature Name or ID:</h2>
+        <input id="search-input" required>
+        <button id="search-button">Search</button>
+      </div>
+
+      <div id="creature-info">
+
+        <div id="info1">
+          <h2><span id="creature-name"></span> <span id="creature-id"></span></h2>
+          <p><span id="weight"></span><br><span id="height"></span></p>
+          <h3><span id="types"></span></h3>
+        </div>
+
+        <table id="info2">
+          <thead><tr><th>Base Stats</th><th>Value</th></tr></thead>
+          <tbody>
+            <tr>   <td>HP</td>   <td id="hp"></td>   </tr>
+            <tr>   <td>Attack</td>   <td id="attack"></td>   </tr>
+            <tr>   <td>Defense</td>   <td id="defense"></td> </tr>
+            <tr>   <td>Sp. Attack</td>   <td id="special-attack"></td>   </tr>
+            <tr>   <td>Sp. Defense</td>   <td id="special-defense"></td>   </tr>
+            <tr>   <td>Speed</td>   <td id="speed"></td>   </tr>
+          </tbody>
+        </table>
+
+      </div>
+      
+    </main>
+    <div class="backg lefty no1"></div>
+      <div class="backg lefty no2"></div>
+      <div class="backg lefty no3"></div>
+      <div class="backg lefty no4"></div>
+
+      <div class="backg righty no5"></div>
+      <div class="backg righty no6"></div>
+      <div class="backg righty no7"></div>
+      <div class="backg righty no8"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
